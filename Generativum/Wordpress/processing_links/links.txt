@@ -1,0 +1,7 @@
+anzuge&http://localhost/wordpress_dev/wp-content/uploads/2011/01/jacken_platzh.jpg
+hemden&http://localhost/wordpress_dev/wp-content/uploads/2011/01/hemden_platzh.jpg
+hosen&http://localhost/wordpress_dev/wp-content/uploads/2011/01/hosen_platzh.jpg
+jacken&http://localhost/wordpress_dev/wp-content/uploads/2011/01/jacken_platzh.jpg
+krawatten&http://localhost/wordpress_dev/wp-content/uploads/2011/01/test.jpg
+schuhe&http://localhost/wordpress_dev/wp-content/uploads/2011/01/schuhe_platzh.jpg
+startseite&http://localhost/wordpress_dev/wp-content/uploads/2010/12/black_men_campaign_01-1024x682.jpg
