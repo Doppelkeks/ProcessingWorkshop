@@ -1,10 +1,10 @@
---- GENERATIVUM - Wordpress and Processing ---
+ï»¿--- GENERATIVUM - Wordpress and Processing ---
 
-Processing ist einer beliebte Programmersprache für
-Designer. Eine gute Dokumenation, viele frei verfügbare 
-Erweiterungen und die eigenständige IDE tragen zu der 
+Processing ist einer beliebte Programmersprache fÃ¼r
+Designer. Eine gute Dokumenation, viele frei verfÃ¼gbare 
+Erweiterungen und die eigenstÃ¤ndige IDE tragen zu der 
 rasanten Verbreitung bei.
 
-Doch wie lässt sich Processing für das Web einsetzen? 
-Ein möglicher Weg wird hier anhand eines realen
+Doch wie lÃ¤sst sich Processing fÃ¼r das Web einsetzen? 
+Ein mÃ¶glicher Weg wird hier anhand eines realen
 Projektes beschrieben.
