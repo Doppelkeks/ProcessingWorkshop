@@ -23,7 +23,7 @@ public class GenerativumIII extends PApplet {
 	private static final String folder_output="F:\\xampp\\xampp\\htdocs\\wordpress_dev\\wp-content\\themes\\sBasis\\images\\";
 	//Folder on where to find the tet file that is needed by the Linkreader class
 	private static final String folder_links="F:\\xampp\\xampp\\htdocs\\wordpress_dev\\wp-content\\plugins\\processing_links\\links.txt";
-	
+
 	//Called Objects
 	LinkreaderII query;
 	GenlogoII logo;

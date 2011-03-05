@@ -15,19 +15,19 @@ public class GenlogoII{
 	private static String output_data;
 	
 	//Variables Logo
-	//STREIFEN Array -> single block sizes
+	//BLOCKS Array -> contains single block sizes
 	private static int blocks[];
 	//thickness of the groundline
 	private static int bold;
 	//length of gradient
-	private static int verlauf;
+	private static int gradient;
 	//Maximum alpha (0-255 | 255=100% | 0=0%)
 	private static int alphamax;
 	//Minimum brightness of the picked colors
 	private static int brightness;
 	//Color Treshold
 	private static int treshold;
-	//How many tries to find a different (random) color [used for brightness and treshold scheck]
+	//How many tries to find a different (random) color [used for brightness and treshold check]
 	private static int tries_max;
 	
 	//UID (never mind)
@@ -54,9 +54,9 @@ public class GenlogoII{
 		//Standard block sizes as measured from the given design
 		blocks=new int[]{11,14,13,12,15,19,7,12,14,19,14,13,18,11,12};
 		//Standard baseline thickness
-		bold=4;
+		bold=4;//4
 		//Standard gradient length
-		verlauf=28;
+		gradient=28;//28
 		//standard min alpha value
 		alphamax=125;
 		//standard min brightness value
@@ -69,7 +69,7 @@ public class GenlogoII{
 		//the width of the image is defined by all block sizes together
 		width=sum(blocks);
 		//height is defined by gradient and baseline thickness
-		height=verlauf+bold;
+		height=gradient+bold;
 		//PGraphics: The canvas we will draw in gets created
 		bg = parent.createGraphics(width,height,PConstants.P2D);
 		
@@ -89,7 +89,7 @@ public class GenlogoII{
 		
 		//temp variables
 		int alpha=alphamax;
-		int constant=(int) Math.ceil((float)alpha/(float)verlauf);
+		int constant=(int) Math.ceil((float)alpha/(float)gradient);
 		int farbe[]=null;
 		int counter=0;
 		
@@ -210,7 +210,8 @@ public class GenlogoII{
 					Math.abs(g-g_2)<treshold &&
 					Math.abs(b-b_2)<treshold){
 				tries++;
-				System.out.println(tries);
+				//Print tries to console
+				//System.out.println(tries);
 				getColor();
 			}
 			
